@@ -3,7 +3,8 @@
 Registries contain information about packages, such as
 available releases, dependencies and where it can be downloaded.
 The `General` registry (https://github.com/JuliaRegistries/General)
-is the default one, and is installed automatically.
+is the default one, and is installed automatically.  Note that registries are global
+and not tied to a specific environment/project.
 
 ## Managing registries
 
