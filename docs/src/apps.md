@@ -11,6 +11,11 @@
 Apps are Julia packages that are intended to be run as "standalone programs" (by e.g. typing the name of the app in the terminal possibly together with some arguments or flags/options).
 This is in contrast to most Julia packages that are used as "libraries" and are loaded by other files or in the Julia REPL.
 
+## Installing Julia apps
+
+The installation of Julia apps is similar to [installing Julia libraries](@ref Managing-Packages) but instead of using e.g. `Pkg.add` or `pkg> add` one uses `Pkg.Apps.add` or `pkg> app add` (`develop` is also available).
+
+
 ## Creating a Julia app
 
 A Julia app is structured similar to a standard Julia library with the following additions:
@@ -155,6 +160,4 @@ set JULIA_APPS_JULIA_CMD=C:\path\to\different\julia.exe
 myapp input.txt
 ```
 
-## Installing Julia apps
 
-The installation of Julia apps is similar to [installing Julia libraries](@ref Managing-Packages) but instead of using e.g. `Pkg.add` or `pkg> add` one uses `Pkg.Apps.add` or `pkg> app add` (`develop` is also available).
